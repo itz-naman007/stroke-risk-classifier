@@ -20,6 +20,7 @@ The dataset comprises anonymized health records and includes the following attri
 - **Target variable**: `stroke` (binary classification: 0 = No stroke, 1 = Stroke)
 
 The target distribution is highly imbalanced, which is reflected in model performance, particularly in recall for the minority class.
+Link: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 ---
 
@@ -78,3 +79,4 @@ The trained pipeline can be saved and reused via:
 ```python
 import joblib
 joblib.dump(pipeline, 'stroke_model.joblib')
+
